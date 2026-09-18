@@ -22,6 +22,7 @@ let package = Package(
         ),
         .library(
             name: "StripePaymentSheet",
+            type: .dynamic,
             targets: ["StripePaymentSheet"]
         ),
         .library(
@@ -42,6 +43,7 @@ let package = Package(
         ),
         .library(
             name: "StripeFinancialConnections",
+            type: .dynamic,
             targets: ["StripeFinancialConnections"]
         ),
         .library(
